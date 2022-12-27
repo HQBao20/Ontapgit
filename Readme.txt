@@ -20,8 +20,13 @@ qua link.
 file chưa được add(hay cập nhật).
 - git reset: Đưa một file đã được add (cập nhật) trở lại working
 dir.
-- Branch: Là các nhánh làm việc trong git. Khi làm một việc
+- Branch: Là các nhánh làm việc trong git. Khi làm việc
 trên một dự án sẽ có rất nhiều nhiệm vụ, mỗi nhiệm vụ sẽ được
 làm việc trên một branch khác nhau, các hoạt động trên branch
 này sẽ không ảnh hưởng gì đến branch khác. Khi branch này hoạt
 động ổn định rồi thì mới merge vào branch master.
+- .gitignore: Liệt kê những file không muốn cho vào git, nhưng
+file không muốn cho vào git như:
+    + Các file do IDE tự sinh ra trong quá trình tự build project
+    + Các file cấu hình đường dẫn của máy cá nhân -> Gây ra 
+việc không build được project khi checkout về ở các máy thành viên khác
