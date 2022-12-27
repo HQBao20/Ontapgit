@@ -12,3 +12,5 @@ nhưng thay đổi đó.
 - git show + <ID commit>: xem được lịch sử commit và những thay
 đổi trong commit đó.
 - git diff: xem nội dung thay đổi của nhưng file bị modify.
+- git remote add <remote name> <link>: Liên kết git với github
+qua link.
