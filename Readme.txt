@@ -14,3 +14,9 @@ nhưng thay đổi đó.
 - git diff: xem nội dung thay đổi của nhưng file bị modify.
 - git remote add <remote name> <link>: Liên kết git với github
 qua link.
+- git push -u origin master: Sử dụng khi lần đầu push lên github
+, dùng để push branch master lên github.
+- git checkout -- <file name>: Xóa những thay đổi của file khi
+file chưa được add(hay cập nhật).
+- git reset: Đưa một file đã được add (cập nhật) trở lại working
+dir.
