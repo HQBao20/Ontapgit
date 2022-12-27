@@ -8,3 +8,7 @@ thái untracked(không xác định) phải dùng git add để xác định
 file đó, một file vừa bị thay đổi nội dung cũng cần phải add
 lại để cập nhật lại nổi dung sau đó mới commit đẻ lưu lại
 nhưng thay đổi đó.
+- git log: xem lịch sử của các commit đã được tạo.
+- git show + <ID commit>: xem được lịch sử commit và những thay
+đổi trong commit đó.
+- git diff: xem nội dung thay đổi của nhưng file bị modify.
