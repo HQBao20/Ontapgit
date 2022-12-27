@@ -20,3 +20,8 @@ qua link.
 file chưa được add(hay cập nhật).
 - git reset: Đưa một file đã được add (cập nhật) trở lại working
 dir.
+- Branch: Là các nhánh làm việc trong git. Khi làm một việc
+trên một dự án sẽ có rất nhiều nhiệm vụ, mỗi nhiệm vụ sẽ được
+làm việc trên một branch khác nhau, các hoạt động trên branch
+này sẽ không ảnh hưởng gì đến branch khác. Khi branch này hoạt
+động ổn định rồi thì mới merge vào branch master.
